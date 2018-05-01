@@ -10,10 +10,10 @@ int question1() {
 	int num1, num2, div;
 	int sum = 0, odd = 0;
 
-	for (int i = 1; i <= 100; i++)
+	for (int i = 1; i < 100; i++)
 		sum = sum + i;
 
-	for (int j = 1; j <= 100; j = j * 2)
+	for (int j = 1; j < 100; j = j * 2)
 		odd = odd + j;
 
 	printf("합 = %d\n", sum);
